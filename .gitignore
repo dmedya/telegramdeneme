@@ -5,3 +5,4 @@ venv/
 config.py
 temp.zip
 
+test_log/

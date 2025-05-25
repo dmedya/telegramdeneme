@@ -1,6 +1,14 @@
+<<<<<<< HEAD
 __pycache__/
 *.pyc
 venv/
 .env
 config.py
 temp.zip
+=======
+config.py
+__pycache__/
+venv/
+*.pyc
+.env
+>>>>>>> 16036be4f848715988b56fc3bde6a09234e9e68e

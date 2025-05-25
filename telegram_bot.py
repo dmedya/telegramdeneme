@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
 from config import TOKEN
@@ -60,3 +61,20 @@ def main():
 
 if __name__ == '__main__':
     main()
+=======
+# .gitignore oluştur
+echo "config.py
+__pycache__/
+venv/
+*.pyc
+.env" > .gitignore
+
+# config.py oluştur
+echo 'TOKEN = "8053866059:AAGhT8PEhtmdReOUe6ZtdNe8yu40MdT_ztY"' > config.py
+
+# telegram_bot.py oluştur
+nano telegram_bot.py
+
+# README.md oluştur
+nano README.md
+>>>>>>> 16036be4f848715988b56fc3bde6a09234e9e68e
